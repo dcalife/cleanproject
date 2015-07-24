@@ -9,9 +9,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Here you will fin the run_analysis.R file. This file define the function run_analysis(), that once is called when the Samsung´s data is in the working diretory it will return a tidy data frame with the following variables:
 
 subject = the number of each subject observed
+
 activity = the name of each activity performed by subject
 
+
 the following variables are means of the values recorded by subject and acitivty, the variables are:
+
 "tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
 "tBodyAcc-mean()-Z"
